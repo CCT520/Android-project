@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/iname"
+        android:layout_width="wrap_content"
+        android:layout_height="45sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="      "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/iphonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="15dp"
+        android:text="     "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/iID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/ilname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fname"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/ID"
+        android:visibility="invisible"
+        android:text=" " 
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/iEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ID"
+        android:layout_alignBottom="@+id/ID"
+        android:layout_toRightOf="@+id/ID"
+        android:visibility="invisible"
+        android:text=" " />
+
+    <TextView
+        android:id="@+id/ifname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/iID"
+        android:layout_alignBottom="@+id/iID"
+        android:layout_toLeftOf="@+id/iID"
+        android:visibility="invisible"
+        android:text="" />
+    
+</RelativeLayout>
